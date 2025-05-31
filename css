@@ -1,0 +1,85 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Estilo do Banner */
+.banner {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Título */
+.banner h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Container do Ciclo */
+.cycle-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo de cada estágio do ciclo */
+.cycle-stage {
+    background-color: #eaf9e3;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.cycle-stage:hover {
+    transform: scale(1.05);
+}
+
+/* Imagem do estágio */
+.cycle-stage img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Títulos das etapas */
+.cycle-stage h3 {
+    font-size: 1.1rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Descrição do estágio */
+.cycle-stage p {
+    font-size: 0.9rem;
+    color: #666;
+}
